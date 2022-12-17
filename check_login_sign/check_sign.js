@@ -26,7 +26,7 @@ document.getElementById("sign-button").addEventListener("click", function(event)
 	  return;
 	}
 
-	if(!isValidEmail(email)) {
+	if(!isValidEmail(email.value)) {
 		alert("Vui lòng điền đúng định dạng email (VD: name123@gmail.com)");
 		email.style.borderColor = 'red';
 		return;

@@ -31,6 +31,7 @@ document.getElementById("sign-button").addEventListener("click", function(event)
 		email.style.borderColor = 'red';
 		return;
 	}
+	
 });
   
 function isValidEmail(email) {
@@ -39,16 +40,4 @@ function isValidEmail(email) {
 }
   
 
-document.getElementById("hide_show").addEventListener("click", function(event) {
-	event.preventDefault();
-	var hide_show = document.getElementsByClassName("password");
-	if(hide_show[0].type === "password") {
-		hide_show[0].type = "text";
-		hide_show[1].type = "text";
-	}
-	else {
-		hide_show[0].type = "password";
-		hide_show[1].type = "password";
-	}
-});
-  
+

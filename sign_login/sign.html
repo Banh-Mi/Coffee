@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/stye.min.css" >
+	<link rel="stylesheet" href="../css/style.min.css" >
 	<link rel="icon" type="image/x-icon" href="../img/logo.svg">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>Đăng ký</title>
@@ -14,11 +14,12 @@
 			<h2 class="text_black">Sign Up</h2>
 			<input type="text" placeholder="Username" id="username">
 			<input type="email" placeholder="Email" id="email">
-			<input type="password" placeholder="Password" class="password" id="password">
-			<input type="password" class="password" id="confirm-password" placeholder="Confirm-password"><button type="button" id ="hide_show" class="hide_show">Hide/Show</button>
+			<div><input type="password" class="password" id="password" placeholder="Password"><span class="material-symbols-outlined " id="hide_show_password">visibility</span></div>
+			<div><input type="password" id="confirm-password" placeholder="Confirm-password"><span class="material-symbols-outlined " id="hide_show_confirm-password" >visibility</span></div>
 			<input type="submit" value="Sign Up" id="sign-button">
 		</form>
 	</section>
-	<script src="../check_login_sign/check_sign.js"></script>
+	<script src="../js/check_login_sign/check_sign.js"></script>
+	<script src="../js/check_login_sign/hide_show.js"></script>
 </body>
 </html>

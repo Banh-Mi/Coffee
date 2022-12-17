@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/stye.min.css" >
+	<link rel="stylesheet" href="../css/style.min.css" >
 	<link rel="icon" type="image/x-icon" href="../img/logo.svg">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<title>Đăng nhập</title>
 </head>
 <body>
@@ -12,11 +13,11 @@
 		<form class="login_sign-form" id="login-form" action="" method="post">
 			<h2 class="text_black">Login</h2>
 			<input type="text" placeholder="Username" id="username">
-			<input type="password" placeholder="Password" id="password"><button type="button" id ="hide_show" class="hide_show">Hide/Show</button>
+			<div><input type="password" class="password" id="password" placeholder="Password"><span class="material-symbols-outlined " id="hide_show_password" >visibility</span></div>
 			<input type="submit" value="Login" id="login-button">
 		</form>
 	</section>
-	
-	<script src="../check_login_sign/check_login.js"></script>
+	<script src="../js/check_login_sign/check_login.js"></script>
+	<script src="../js/check_login_sign/hide_show.js"></script>
 </body>
 </html>

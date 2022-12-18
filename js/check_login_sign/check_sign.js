@@ -13,9 +13,10 @@ document.getElementById("sign-button").addEventListener("click", function(event)
   
 	if (password.value.length < 8) {
 	  alert("Mật khẩu phải có ít nhất 8 ký tự!");
-	  password.style.borderColor = 'red';
+	  password.focus();
 	  password.value ="";
 	  confirmPassword.value ="";
+	  password.style.borderColor = 'red';
 	  return;
 	}
   

@@ -1,0 +1,30 @@
+.text_stroke {
+	text-shadow:
+	-1px 0px 0px #fff,
+	1px 0px 0px #fff,
+	0px -1px 0px #fff,
+	0px 1px 0px #fff;
+	font-weight: 700;
+	font-size: 130px;
+	opacity: 0.4;
+}
+.line {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #DC4F00;
+	height: 1px;
+}
+
+.text_black {
+	color: #000;
+}
+
+.hide_show {
+	color: #fff;
+	width: fit-content;
+	margin: 0 auto;
+	background-color: #DC4F00;
+	padding: 8px 14px;
+	border-radius: 2em;
+}
+

@@ -1,0 +1,82 @@
+
+.login_sign-page {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.login_sign-form {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+		padding: 30px;
+		border: 1px solid #dc510048;
+		border-radius: 5px;
+		background-color: #dc51002c;
+		input {
+			color: #000;
+		}
+	  }
+	  /* Style the form inputs */
+	  .login_sign-form input[type="text"],
+	  .login_sign-form input[type="email"],
+	  .login_sign-form input[type="password"] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 5px 0;
+		box-sizing: border-box;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+	  }
+	  /* Style the submit button */
+	  .login_sign-form input[type="submit"] {
+		background-color: #DC4F00;
+		color: white;
+		padding: 14px 20px;
+		margin: 5px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 16px;
+	  }
+	  /* Add some hover effects */
+	  .login_sign-form input[type="submit"]:hover,
+	  .login_sign-form input[type="button"]:hover {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  }
+	  div {
+		width: 100%;
+		padding: 6px 15px;
+		background: #fff;
+		margin: 5px 0;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		#confirm-password, #password {
+			border: none;
+			background: none;
+			padding: 0;
+		}
+		span {
+			color: #000;
+		}
+	  }
+	  .create_account {
+		color: #000;
+		a {
+			color: #DC4F00;
+		}
+	  }
+}
+
+.hide_show {
+	position: absolute;
+}
